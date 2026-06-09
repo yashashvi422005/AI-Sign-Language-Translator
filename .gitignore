@@ -25,4 +25,4 @@ dataset/processed/
 # OS/editor files
 .DS_Store
 .vscode/
-
+.cache/
