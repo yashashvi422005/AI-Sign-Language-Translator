@@ -1,0 +1,5 @@
+# Phase 1 dependencies will be installed after environment verification.
+opencv-python
+mediapipe
+numpy
+
