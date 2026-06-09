@@ -19,8 +19,12 @@ models/*.h5
 models/*.keras
 models/*.pkl
 models/*.onnx
-dataset/raw/
-dataset/processed/
+dataset/raw/**/*
+!dataset/raw/**/
+!dataset/raw/**/.gitkeep
+dataset/processed/**/*
+!dataset/processed/
+!dataset/processed/.gitkeep
 
 # OS/editor files
 .DS_Store
